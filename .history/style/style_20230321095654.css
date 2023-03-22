@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__img {
+  width: 100px;
+  height: 66px;
+}

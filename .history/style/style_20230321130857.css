@@ -1,0 +1,134 @@
+:root {
+  --color-bg: #1c1c1c;
+  --color-red: #e84545;
+}
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  list-style: none;
+}
+/* Header */
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding: 32px;
+}
+.header__img {
+  flex: 1;
+}
+.header__img > img {
+  width: 100px;
+  height: 66px;
+}
+#masked {
+  z-index: 10;
+  /* background-color: black; */
+  /* background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, #000000 100%); */
+
+  /* -webkit-mask-image: radial-gradient(
+    circle at 50% 50%,
+    rgb(0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.617) 70%
+  ); */
+
+  /* -webkit-mask-image: radial-gradient(circle at center, red 0, blue, green 100%); */
+}
+
+.header__option {
+  flex: 1;
+  width: 100px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+}
+
+.option__search {
+  display: flex;
+}
+.option__menu {
+  width: 50px;
+}
+
+/* Intro */
+.intro {
+  position: relative;
+}
+.intro__background {
+  height: 100%;
+  width: 100%;
+}
+
+.intro__background > img {
+  object-fit: cover;
+}
+.intro__list {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  justify-content: space-between;
+}
+
+.intro__list span {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13px;
+}
+.intro__list span > * {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 10;
+}
+.intro__list span > p:nth-child(1) {
+  color: --color-red;
+}
+.list__left {
+  display: flex;
+  flex: 2;
+  justify-content: space-around;
+}
+.list__left div:nth-child(1) {
+  height: 76px;
+  width: 280px;
+  align-self: end;
+  border-left: 4px solid --color-red;
+  background: rgb(0, 0, 0, 0.5);
+}
+
+.list__right {
+  display: flex;
+  flex: 1;
+  align-self: flex-end;
+  opacity: 0.6;
+}
+
+#active_intro {
+  margin-left: 50px;
+  /* border-bottom: 1px solid --color-red; */
+  border-left: 1px solid --color-red;
+}
+#active_intro h1:nth-child(1) {
+  font-size: 70px;
+  color: --color-red;
+}
+#active_intro p {
+  font-size: 18px;
+  font-weight: 400;
+  color: --color-red;
+}
+#active_intro h1:nth-child(3) {
+  font-size: 32px;
+  text-transform: none;
+}

@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: black;
+}
+.header__img {
+  padding: 50px 32px;
+  width: 100px;
+  height: 66px;
+}
