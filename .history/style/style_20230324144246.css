@@ -1029,9 +1029,6 @@ a {
     height: 300px;
     width: 700px;
   }
-  .contact__left {
-    margin-left: 0%;
-  }
 }
 
 @media screen and (max-width: 768px) {

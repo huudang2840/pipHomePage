@@ -1031,6 +1031,7 @@ a {
   }
   .contact__left {
     margin-left: 0%;
+    height: 200px;
   }
 }
 

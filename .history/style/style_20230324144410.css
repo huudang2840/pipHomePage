@@ -1030,7 +1030,7 @@ a {
     width: 700px;
   }
   .contact__left {
-    margin-left: 0%;
+    margin-left: 0% !important;
   }
 }
 
