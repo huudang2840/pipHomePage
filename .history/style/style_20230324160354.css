@@ -1308,12 +1308,9 @@ a {
   .wedo__bottom h1 {
     line-height: 20px;
   }
-  .wedo .container {
-    max-width: 400px;
-  }
   .wedo__bottom__item {
-    /* height: 100%;   */
-    width: 92%;
+    height: 100%;
+    width: 60%;
     margin-top: 5%;
     margin-left: 0;
   }

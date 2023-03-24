@@ -1308,12 +1308,12 @@ a {
   .wedo__bottom h1 {
     line-height: 20px;
   }
-  .wedo .container {
+  .wedo__bottom .container {
     max-width: 400px;
   }
   .wedo__bottom__item {
-    /* height: 100%;   */
-    width: 92%;
+    height: 100%;
+    width: 100%;
     margin-top: 5%;
     margin-left: 0;
   }

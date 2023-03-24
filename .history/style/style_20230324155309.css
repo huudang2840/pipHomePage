@@ -1280,14 +1280,9 @@ a {
   }
   .wedo__bottom {
     flex-direction: column;
+    /* justify-content: flex-start; */
     padding-top: 0;
-    /* max-width: 480px; */
-  }
-  .wedo__bottom__item > * {
-    padding: 0 5%;
-  }
-  .op-overlay {
-    width: 90%;
+    padding: 0 10%;
   }
 
   .wedo__bottom__text {
@@ -1308,14 +1303,10 @@ a {
   .wedo__bottom h1 {
     line-height: 20px;
   }
-  .wedo .container {
-    max-width: 400px;
-  }
   .wedo__bottom__item {
-    /* height: 100%;   */
-    width: 92%;
+    height: 100%;
+    width: 60%;
     margin-top: 5%;
-    margin-left: 0;
   }
   .wedo__bottom__item__header {
     margin-left: 0 !important;
