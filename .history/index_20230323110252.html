@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Slider -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__img">
+        <a href="">
+          <img src="/img/logo.png" alt="" />
+        </a>
+      </div>
+      <div class="header__option">
+        <div class="option__search">
+          <img src="/img/search.png" alt="" onclick="showSearch()" />
+          <input id="search" class="search hide-search" placeholder="Search ..."></input>
+        </div>
+
+        <div class="option__lang"><p>EN</p></div>
+        <div id="op-menu" class="option__menu">
+          <img id="show-menu" onclick="showNavbar()" src="/img/menu.png" alt="" srcset="" />
+          <img id="hide-menu" onclick="showNavbar()" src="/img/close.png" alt="" srcset="" />
+        </div>
+        <div class="option__share" onclick="showShare()">
+          <img src="/img/share.png" alt="" srcset="" />
+        </div>
+        <ul class="list-share hide-list-share" id="share-list">
+          <li><img src="/img/fb.png" alt="" /></li>
+          <li><img src="/img/ig.png" alt="" /></li>
+          <li><img src="/img/linkedin.png" alt="" /></li>
+          <li><img src="/img/ytb.png" alt="" /></li>
+          <li><img src="/img/gg.png" alt="" /></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Navbar -->
+    <div class="navbar hide_navbar" id="navbar">
+      <ul>
+        <li class="navbar__item">
+          <div></div>
+          Home
+        </li>
+        <li class="navbar__item">
+          <div></div>
+          About us
+        </li>
+        <li class="navbar__item">
+          <div></div>
+          Service
+        </li>
+        <li class="navbar__item">
+          <div></div>
+          Our projects
+        </li>
+        <li class="navbar__item">
+          <div></div>
+          Clients
+        </li>
+        <li class="navbar__item">
+          <div></div>
+          Get in touch
+        </li>
+      </ul>
+    </div>
+    <div class="pseudo" id="pseudo" onclick="hideNav()"></div>
+    <!-- Main -->
+    <section>
+
+     
+      <div class="intro">
+    
+     
+        <div class="intro__background">
+          <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/page1.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/page1.png" />
+              </div>
+              <!-- <!-- <div class="swiper-slide">
+                <img src="img/page1.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/page1.png" />
+              </div> -->
+         -->
+            </div>
+           
+          </div>
+          
+        
+          <div class="overlay"></div>
+        </div>
+        <div class="intro__list">
+        
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper swiper-center">
+                <div class="swiper-slide swiper-no-active">
+                  <span >
+                    <p class="intro-title">01.</p>
+                    <p class="intro-des">D1 Mension</p>
+                  </span>
+                </div>
+              <div class="swiper-slide">
+                <span>
+                  <p class="intro-title">02.</p>
+                  <p class="intro-type">Design & build</p>
+                  <p class="intro-des" >Nguyen Dinh Chinh Hotel</p>
+                </span>
+              </div>
+              <div class="swiper-slide">
+                <span>
+                  <p class="intro-title">03.</p>
+                  <p class="intro-des">Primier Sky</p>
+                </span>
+              </div>
+              <div class="swiper-slide">
+                <span>
+                  <p class="intro-title">0.4.</p>
+                  <p class="intro-des">Sunrise Riverside</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        
+          
+        </div>
+      </div>
+      <div class="about">
+        <div class="about__left">
+          <span data-aos="fade-up">
+            <span>
+              <h1><span class="text-red">A</span> bout</h1>
+            </span>
+            <h1 class="ml-100">P.I.P ID CORP</h1>
+          </span>
+          <span class="about__left__textaera" data-aos="fade-up">
+            <p>
+              With experienced, skillful and enthusiastic staff, we transform every smallest corner
+              of the drawing to reality in the most truely and obvious way. According to the working
+              process, the specific characteristics of customers are highlighted and incorporated in
+              the details. For us, every project is a mission to create a more beautifully and
+              convenient living space…
+            </p>
+          </span>
+          <div class="read-more">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 0C3.14005 0 0 3.14005 0 7C0 10.86 3.14005 14 7 14C10.86 14 14 10.86 14 7C14 3.14005 10.86 0 7 0ZM10.0625 7.5833H7.5833V10.0625C7.5833 10.3845 7.32204 10.6458 7 10.6458C6.67796 10.6458 6.4167 10.3845 6.4167 10.0625V7.5833H3.9375C3.61546 7.5833 3.3542 7.32204 3.3542 7C3.3542 6.67796 3.61546 6.4167 3.9375 6.4167H6.4167V3.9375C6.4167 3.61546 6.67796 3.3542 7 3.3542C7.32204 3.3542 7.5833 3.61546 7.5833 3.9375V6.4167H10.0625C10.3845 6.4167 10.6458 6.67796 10.6458 7C10.6458 7.32204 10.3845 7.5833 10.0625 7.5833Z"
+                fill="#E84545"
+              />
+            </svg>
+            <p>Read more</p>
+          </div>
+          <div class="arrow_prev">
+            <svg
+              width="11"
+              height="18"
+              viewBox="0 0 11 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 17L2 9L10 1" stroke="white" stroke-width="1.6" />
+            </svg>
+          </div>
+          <div class="arrow_next ">
+            <svg
+              width="11"
+              height="18"
+              viewBox="0 0 11 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M1 1L9 9L1 17" stroke="white" stroke-width="1.6" />
+            </svg>
+          </div>
+        </div>
+        <!-- <div class="about__right"> -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                 <img src="/img/about.jpeg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/about.jpeg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/about.jpeg" alt="" />
+              </div>
+            </div>
+           
+          </div>
+         
+        <!-- </div> -->
+      </div>
+      <div class="wedo">
+        <div class="wedo__top" data-aos="fade-up">
+          <div class="wedo__top__logo">
+            <img src="/img/logo2.png" alt="" srcset="" />
+          </div>
+          <div>
+            <h2 class="wedo__top__text">
+              <span>P</span>restige <span>i</span>s <span>P</span>ower
+            </h2>
+          </div>
+        </div>
+        <div class="wedo__bottom" data-aos="fade-up">
+          <span>
+            <h1 class="wedo__bottom__text"><span class="text-red">W</span>hat</h1>
+            <h1 class="wedo__bottom__text">We do</h1>
+          </span>
+
+          <div class="wedo__bottom__item selected">
+            <div class="op-overlay"></div>
+
+            <span>
+              <svg
+                width="50"
+                height="48"
+                viewBox="0 0 50 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M48.9873 21.1033L44.931 17.0479C44.6268 16.7437 44.2209 16.5625 43.7911 16.5386L40.962 16.3804L40.8901 13.6863C40.8782 13.2385 40.6953 12.8113 40.3783 12.4951L32.3717 4.48853C30.1056 2.22241 27.0927 0.973145 23.8875 0.973145C23.8849 0.973145 23.8823 0.973145 23.8798 0.973145C20.6754 0.974854 17.6633 2.22412 15.3989 4.48853C14.9683 4.91919 14.7922 5.54126 14.9341 6.13257C15.0759 6.72559 15.5151 7.20068 16.0936 7.39038C22.7092 9.54797 24.1731 12.4049 24.6757 15.0402L2.11755 37.5984C-0.0357666 39.7517 -0.0357666 43.2551 2.11755 45.4084C4.27087 47.5618 7.77429 47.5618 9.92761 45.4084L28.4667 26.8694C28.4674 26.8686 28.4685 26.8684 28.4692 26.8677C28.47 26.8669 28.4702 26.8659 28.4709 26.8651L32.5843 22.7518L34.5305 22.804L34.6976 25.6372C34.7224 26.0645 34.9036 26.4695 35.2069 26.772L39.2632 30.8274C39.605 31.1692 40.0527 31.3401 40.5005 31.3401C40.9482 31.3401 41.396 31.1692 41.7378 30.8274L48.9873 23.5779C49.3154 23.2498 49.5 22.8054 49.5 22.3406C49.5 21.8757 49.3154 21.4314 48.9873 21.1033ZM38.1523 24.7673L37.978 21.8125C37.9532 21.3853 37.7721 20.9802 37.4688 20.6777L36.6296 19.8386C36.285 19.5467 35.8884 19.3765 35.4393 19.3259L32.6357 19.2507L28.1915 14.8074C27.6429 11.4988 26.0912 7.94067 20.2883 5.26782C21.3983 4.74829 22.6194 4.47485 23.8823 4.47314H23.8875C26.157 4.47314 28.2915 5.35669 29.8971 6.96313L37.4106 14.4758L37.4858 17.3025C37.5493 17.7349 37.6595 18.1839 37.9918 18.4919L37.9952 18.4886C37.9967 18.4901 37.997 18.4922 37.9985 18.4937L38.8265 19.3208C39.1307 19.625 39.5366 19.8062 39.9656 19.8301L42.929 19.9958L45.2754 22.3406L40.5005 27.1155L38.1523 24.7673ZM7.453 42.9338C6.66345 43.7234 5.38171 43.7234 4.59216 42.9338C3.80347 42.1443 3.80347 40.8625 4.59216 40.073L21.8961 22.7691L24.7569 25.6299L7.453 42.9338ZM27.2315 23.1553L24.3707 20.2945L26.5492 18.116L29.41 20.9768L27.2315 23.1553Z"
+                  fill="#E84545"
+                />
+              </svg>
+              <h3>BUILD</h3>
+            </span>
+
+            <p>
+              With our years of experience, we can help your ideas become a feasible plan. We know
+              how you can bring the most out of your space...
+            </p>
+            <div class="read-more">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 0C3.14005 0 0 3.14005 0 7C0 10.86 3.14005 14 7 14C10.86 14 14 10.86 14 7C14 3.14005 10.86 0 7 0ZM10.0625 7.5833H7.5833V10.0625C7.5833 10.3845 7.32204 10.6458 7 10.6458C6.67796 10.6458 6.4167 10.3845 6.4167 10.0625V7.5833H3.9375C3.61546 7.5833 3.3542 7.32204 3.3542 7C3.3542 6.67796 3.61546 6.4167 3.9375 6.4167H6.4167V3.9375C6.4167 3.61546 6.67796 3.3542 7 3.3542C7.32204 3.3542 7.5833 3.61546 7.5833 3.9375V6.4167H10.0625C10.3845 6.4167 10.6458 6.67796 10.6458 7C10.6458 7.32204 10.3845 7.5833 10.0625 7.5833Z"
+                  fill="#E84545"
+                />
+              </svg>
+              <p>Read more</p>
+            </div>
+          </div>
+          <div class="wedo__bottom__item">
+            <span>
+              <svg
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M47.75 23.25H26.75V2.25C26.75 1.28357 25.9664 0.5 25 0.5H2.25C1.28357 0.5 0.5 1.28357 0.5 2.25V47.75C0.5 48.7164 1.28357 49.5 2.25 49.5H47.75C48.7164 49.5 49.5 48.7164 49.5 47.75V39V25C49.5 24.0336 48.7164 23.25 47.75 23.25ZM46 37.4081C41.6125 38.1488 38.1488 41.6125 37.4081 46H26.75V39.7627C33.554 38.9605 38.9605 33.554 39.7627 26.75H46V37.4081ZM46 46H40.9713C41.6062 43.5433 43.5433 41.6062 46 40.9713V46ZM4 12.5919C8.3875 11.8512 11.8512 8.3875 12.5919 4H23.25V10.2373C16.446 11.0395 11.0395 16.446 10.2373 23.25H4V12.5919ZM4 4H9.02869C8.3938 6.45667 6.45667 8.3938 4 9.02869V4ZM23.25 26.75V36.226C18.3799 35.4688 14.5312 31.6201 13.774 26.75H23.25ZM26.75 26.75H36.2408C35.4855 31.6218 31.6204 35.4564 26.75 36.2148V26.75ZM23.25 23.25H13.7852C14.5436 18.3796 18.3782 14.5145 23.25 13.7592V23.25ZM4 46V40.9713C6.45667 41.6062 8.3938 43.5433 9.02869 46H4ZM4 37.4081V26.75H10.2373C11.0395 33.554 16.446 38.9605 23.25 39.7627V46H12.5919C11.8512 41.6125 8.3875 38.1488 4 37.4081Z"
+                  fill="#E84545"
+                />
+              </svg>
+              <h3>Design</h3>
+            </span>
+
+            <p>
+              Custom furniture solutions, cabinets, vibrant colors, a vertical garden, an invisible
+              cupboard, a hidden bed or desk - anything can take shape in our hands...
+            </p>
+            <div class="read-more">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 0C3.14005 0 0 3.14005 0 7C0 10.86 3.14005 14 7 14C10.86 14 14 10.86 14 7C14 3.14005 10.86 0 7 0ZM10.0625 7.5833H7.5833V10.0625C7.5833 10.3845 7.32204 10.6458 7 10.6458C6.67796 10.6458 6.4167 10.3845 6.4167 10.0625V7.5833H3.9375C3.61546 7.5833 3.3542 7.32204 3.3542 7C3.3542 6.67796 3.61546 6.4167 3.9375 6.4167H6.4167V3.9375C6.4167 3.61546 6.67796 3.3542 7 3.3542C7.32204 3.3542 7.5833 3.61546 7.5833 3.9375V6.4167H10.0625C10.3845 6.4167 10.6458 6.67796 10.6458 7C10.6458 7.32204 10.3845 7.5833 10.0625 7.5833Z"
+                  fill="#E84545"
+                />
+              </svg>
+              <p>Read more</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects">
+        <span>
+          <h1><span class="text-red">O</span>ur</h1>
+          <h1>Projects</h1>
+        </span>
+
+        <div class="projects__item">
+          <img class="img1" src="/img/project1-b.png" alt="" />
+          <img class="img2" src="/img/project1.png" alt="" />
+          <h2>F&B</h2>
+        </div>
+        <div class="projects__item">
+          <img src="/img/project2-b.png" alt="" />
+          <h2>HOspitality</h2>
+        </div>
+        <div class="projects__item">
+          <img src="/img/project3-b.png" alt="" />
+          <h2>office</h2>
+        </div>
+        <div class="projects__item">
+          <img src="/img/project4-b.png" alt="" />
+          <h2>retail</h2>
+        </div>
+      </div>
+      <div class="customer">
+        <div class="customer__left">
+          <span>
+            <h1><span class="text-red">O</span>ur</h1>
+            <h1>Clients</h1>
+          </span>
+          <div class="read-more">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 0C3.14005 0 0 3.14005 0 7C0 10.86 3.14005 14 7 14C10.86 14 14 10.86 14 7C14 3.14005 10.86 0 7 0ZM10.0625 7.5833H7.5833V10.0625C7.5833 10.3845 7.32204 10.6458 7 10.6458C6.67796 10.6458 6.4167 10.3845 6.4167 10.0625V7.5833H3.9375C3.61546 7.5833 3.3542 7.32204 3.3542 7C3.3542 6.67796 3.61546 6.4167 3.9375 6.4167H6.4167V3.9375C6.4167 3.61546 6.67796 3.3542 7 3.3542C7.32204 3.3542 7.5833 3.61546 7.5833 3.9375V6.4167H10.0625C10.3845 6.4167 10.6458 6.67796 10.6458 7C10.6458 7.32204 10.3845 7.5833 10.0625 7.5833Z"
+                fill="#E84545"
+              />
+            </svg>
+            <p>Read more</p>
+          </div>
+        </div>
+        <div class="customer__right">
+          <div class="customer__logo">
+            <img src="/img/brand1.png" alt="" />
+          </div>
+          <div class="customer__logo">
+            <img src="/img/brand2.png" alt="" />
+          </div>
+          <div class="customer__logo">
+            <img src="/img/brand3.png" alt="" />
+          </div>
+          <div class="customer__logo">
+            <img src="/img/brand4.png" alt="" />
+          </div>
+          <div class="customer__logo">
+            <img src="/img/brand5.png" alt="" />
+          </div>
+          <div class="customer__logo">
+            <img src="/img/brand6.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="contact__left">
+          <a href="">
+            <img src="/img/contact.jpeg" alt="" />
+
+          </a>
+        </div>
+        <div class="contact__center">
+          <div>
+            <span>
+              <h1><span class="text-red">G</span>et in touch</h1>
+            </span>
+            <ul data-aos="fade-up">
+              <li>
+                <h3>Hotline:</h3>
+                <p>+84 28 7305 1990</p>
+              </li>
+              <li>
+                <h3>Email:</h3>
+                <p>info@pipidcorp.com</p>
+              </li>
+              <li>
+                <h3>Address:</h3>
+                <p>40/04 19B Street, An Khanh Ward, District 2, Thu Duc City, HCM City</p>
+              </li>
+            </ul>
+            <div class="contact__center__now" data-aos="zoom-in-up">
+              <span>
+                <p>You have a question ?</p>
+                <h2>contact us now</h2>
+              </span>
+
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_42_93)">
+                  <path
+                    d="M22.7692 4H1.2308C0.553828 4 0 4.55383 0 5.23075V18.7692C0 19.4461 0.553828 20 1.2308 20H22.7692C23.4461 20 24 19.4462 24 18.7692V5.23075C24 4.55383 23.4462 4 22.7692 4ZM22.3073 4.92302L12.708 12.1231C12.5354 12.2544 12.2705 12.3366 12 12.3354C11.7295 12.3366 11.4646 12.2544 11.292 12.1231L1.69261 4.92302H22.3073ZM17.1797 12.5982L22.4105 19.0598C22.4157 19.0662 22.4221 19.0711 22.4277 19.077H1.57228C1.57781 19.0709 1.58428 19.0662 1.58953 19.0598L6.82031 12.5982C6.98058 12.4 6.9502 12.1096 6.75169 11.9489C6.55355 11.7887 6.26306 11.819 6.10275 12.0172L0.923062 18.4157V5.49995L10.7384 12.8615C11.1074 13.1363 11.5562 13.2572 11.9999 13.2584C12.443 13.2575 12.8922 13.1365 13.2614 12.8615L23.0767 5.49995V18.4156L17.8972 12.0172C17.7369 11.8191 17.4461 11.7886 17.2483 11.9489C17.0498 12.1092 17.0193 12.4 17.1797 12.5982Z"
+                    fill="#E84545"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_42_93">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <span class="contact__center__find" data-aos="fade-up">
+              <h2>FIND US ON MAPS</h2>
+
+              <svg
+                width="10"
+                height="18"
+                viewBox="0 0 10 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M1 1L9 9L1 17" stroke="#E84545" />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="contact__right" >
+          <div class="map">
+            <iframe class="map__frame"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.179311634683!2d106.72838331538814!3d10.79757469230718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752604b9fab359%3A0x9e574e414e169428!2zxJAuIFPhu5EgMTlCLCBCw6xuaCBBbiwgQW4gS2jDoW5oLCBRdeG6rW4gMiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1679419189945!5m2!1sen!2s"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Designed and developed by Mona Media</p>
+      <span
+        ><p>follow us</p>
+        <a href="">
+          <img src="/img/fb.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/img/ig.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/img/linkedin.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/img/ytb.png" alt="" />
+        </a>
+        <a href="">
+          <img src="/img/gg.png" alt="" />
+        </a>
+      </span>
+      
+    </footer>
+   
+    
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+      
+      const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.arrow_next',
+        prevEl: '.arrow_prev',
+      },
+
+    });
+
+    var swiper1 = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,  
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+     
+      thumbs: {
+        swiper: swiper1,
+      },
+    });
+    </script>
+  </body>
+</html>
